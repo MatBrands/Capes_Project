@@ -1,3 +1,7 @@
+*.pdf
+*.csv
+*.pkl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -67,7 +71,3 @@ venv.bak/
 
 # mkdocs documentation
 /site
-
-.pdf
-.csv
-.pkl

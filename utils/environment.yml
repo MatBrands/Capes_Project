@@ -1,0 +1,13 @@
+name: cluster_capes-venv
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - nbformat
+  - ipykernel
+  - openpyxl
