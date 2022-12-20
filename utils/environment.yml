@@ -9,4 +9,5 @@ dependencies:
   - matplotlib
   - seaborn
   - scikit-learn
+  - ipykernel
  
