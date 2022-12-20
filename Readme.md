@@ -27,7 +27,7 @@ Conteúdo:
 - Em relação aos commits será utilizado um padrão
     - Novas features. Ex: git commit -m "Create: Readme"
     - Updates. Ex: git commit -m "Update: Readme"
-    - Remoção. Ex: git commit -m "Removed: Readme"
+    - Remoção. Ex: git commit -m "Remove: Readme"
 
 ## Integrantes
 Projeto desenvolvido pelos Devs:
