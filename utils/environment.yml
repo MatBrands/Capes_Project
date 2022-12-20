@@ -1,4 +1,4 @@
-name: cluster_capes-venv
+name: cluster_capes_venv
 channels:
   - conda-forge
 dependencies:
