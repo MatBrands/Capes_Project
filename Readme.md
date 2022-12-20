@@ -19,3 +19,39 @@ Conteúdo:
 - Instalação
 - Organização
 - Contribuições
+
+## Recomendações
+- Cada desenvolvedor terá sua branch para ficar a vontade para inserir novas funcionalidades ao projeto.
+- Ao desenvolver uma nova funcionalidade o dev deverá solicitar o Pull Request comentando o que foi feito.
+- Em relação aos commits será utilizado um padrão
+    - Novas features. Ex: git commit -m "Create: Readme"
+    - Updates. Ex: git commit -m "Update: Readme"
+    - Remoção. Ex: git commit -m "Removed: Readme"
+
+## Integrantes
+Projeto desenvolvido pelos Devs:
+
+- [Matheus Miranda Brandão](https://github.com/MatBrands)
+- [Eric Soares Silva](https://github.com/Ericsx2)
+
+## Instalação
+No desenvolvimento foi utilizado o gerenciador de pacotes e ambientes [Conda](https://conda.io/). Portanto para prosseguir necessita-se de sua [instalação](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
+
+- Instalar dependências
+```sh
+conda env create environment.yml
+```
+
+- Ativar
+```sh
+conda activate genome_search-venv
+```
+
+- Desativar
+```sh
+conda deactivate
+```
+
+## Organização
+
+## Contribuições
