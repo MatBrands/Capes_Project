@@ -3,11 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - python
+  - pip
   - pandas
   - numpy
   - matplotlib
+  - seaborn
   - scikit-learn
-  - pip
-  - nbformat
-  - ipykernel
-  - openpyxl
+ 
