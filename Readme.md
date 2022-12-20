@@ -46,7 +46,7 @@ conda env create environment.yml
 
 - Ativar
 ```sh
-conda activate genome_search-venv
+conda activate cluster_capes_venv
 ```
 
 - Desativar
