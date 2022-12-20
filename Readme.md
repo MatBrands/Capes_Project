@@ -11,7 +11,7 @@
 
 Neste projeto a partir dos dados de trabalhos de conclusão de programa de pós-graduação stricto sensu (teses e dissertação) fornecidos pela CAPES será desenvolvido um agrupador que a partir da análise de palavras-chave, título ou resumo será identificado a área de conhecimento aplicada.
 
-Utilizando o Python seá feita a tratativa desses dados, agrupando-os a partir da frequência das palavras nos trabalhas das áreas de avaliação. Inicialmente será desenvolvida utilizando os dados dos anos 2013~2016 e posteriormente expandindo o seu período...
+Utilizando o Python será feita a tratativa desses dados, agrupando-os a partir da frequência das palavras nos trabalhas das áreas de avaliação. Inicialmente será desenvolvida utilizando os dados dos anos 2013~2016 e posteriormente expandindo o seu período...
 
 Conteúdo:
 - Recomendações
