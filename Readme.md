@@ -17,6 +17,7 @@ Conteúdo:
 - Recomendações
 - Integrantes
 - Instalação
+- Base de dados
 - Organização
 - Contribuições
 
@@ -51,6 +52,10 @@ conda activate genome_search-venv
 ```sh
 conda deactivate
 ```
+
+## Base de dados
+Por conta do tamanho da base foi adicionado no diretório referente o comando para download.
+
 
 ## Organização
 
