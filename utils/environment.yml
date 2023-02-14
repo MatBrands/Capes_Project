@@ -4,12 +4,8 @@ channels:
 dependencies:
   - python
   - pip
-  - pandas
   - numpy
-  - matplotlib
-  - seaborn
-  - scikit-learn
-  - tensorflow
+  - pandas
   - nltk
+  - spacy
   - ipykernel
- 
