@@ -1,7 +1,6 @@
 # Capes_Project
 ![python](https://img.shields.io/pypi/pyversions/Conda)
 ![conda](https://img.shields.io/conda/v/conda-forge/python)
-![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 - Instituição: Universidade Estadual de Santa Cruz
 - Curso: Ciência da Computação
