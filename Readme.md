@@ -13,45 +13,18 @@ Neste projeto a partir dos dados de trabalhos de conclusão de programa de pós-
 Utilizando o Python será feita a tratativa desses dados, agrupando-os a partir da frequência das palavras nos trabalhas das áreas de avaliação. Inicialmente será desenvolvida utilizando os dados dos anos 2013~2016 e posteriormente expandindo o seu período...
 
 Conteúdo:
-- Recomendações
 - Integrantes
-- Instalação
 - Base de dados
+- Commits
+- Instalação
 - Organização
 - Contribuições
-
-## Recomendações
-- Cada desenvolvedor terá sua branch para ficar a vontade para inserir novas funcionalidades ao projeto.
-- Ao desenvolver uma nova funcionalidade o dev deverá solicitar o Pull Request comentando o que foi feito.
-- Em relação aos commits será utilizado um padrão
-    - Novas features. Ex: git commit -m "Create: Readme"
-    - Updates. Ex: git commit -m "Update: Readme"
-    - Remoção. Ex: git commit -m "Remove: Readme"
 
 ## Integrantes
 Projeto desenvolvido pelos Devs:
 
 - [Matheus Miranda Brandão](https://github.com/MatBrands)
 - [Eric Soares Silva](https://github.com/Ericsx2)
-
-## Instalação
-No desenvolvimento foi utilizado o gerenciador de pacotes e ambientes [Conda](https://conda.io/). Portanto para prosseguir necessita-se de sua [instalação](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
-
-- Instalar dependências
-```sh
-cd utils/
-conda env create environment.yml
-```
-
-- Ativar
-```sh
-conda activate cluster_capes_venv
-```
-
-- Desativar
-```sh
-conda deactivate
-```
 
 ## Base de dados
 Por conta do tamanho das bases segue os comandos para download.
@@ -95,6 +68,64 @@ wget https://dadosabertos.capes.gov.br/dataset/36d1c92c-f9e0-4da1-a4f0-633e6ebef
 wget https://dadosabertos.capes.gov.br/dataset/36d1c92c-f9e0-4da1-a4f0-633e6ebefe03/resource/e37df31a-f250-4405-8b21-ca7e5c7c1696/download/br-capes-btd-2017a2020-2021-12-03_2020.csv
 ```
 
+## Commits
+Neste projeto foi adotado o uso de Commits Semânticos para padronização:
+
+- Feat: Nova feature do projeto
+- Refactor: Refatoração de alguma parte do código
+- Fix: Correção de erros que estão causando bugs
+- Chore: Mudanças que não influenciam o sistema nem arquivos de testes
+- Style: Mudanças de formatação ou estilos de códigos que não influenciam na lógica do sistema
+- Test: Criação ou alteração de algum código de teste
+- Perf: Alterações feitas para melhorar a performance do projeto
+- Docs: Alterações na documentação do projeto
+
+## Instalação
+No desenvolvimento foi utilizado o gerenciador de pacotes e ambientes [Conda](https://conda.io/). Portanto para prosseguir necessita-se de sua [instalação](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
+
+- Instalar dependências
+```sh
+cd utils/
+conda env create environment.yml
+```
+
+- Ativar
+```sh
+conda activate cluster_capes_venv
+```
+
+- Desativar
+```sh
+conda deactivate
+```
+
 ## Organização
+```sh
+.
+├── License
+├── Readme.md
+├── main
+│   ├── datasets
+│   │   ├── raw
+│   │   │   ├── 2013.csv
+│   │   │   ├── 2014.csv
+│   │   │   ├── 2015.csv
+│   │   │   ├── 2016.csv
+│   │   │   ├── 2017.csv
+│   │   │   ├── 2018.csv
+│   │   │   ├── 2019.csv
+│   │   │   └── 2020.csv
+│   │   └── processed
+│   │   │   └── ...
+│   └── notebooks
+│       ├── model.ipynb
+│       ├── pre_processor.ipynb
+│       └── test.ipynb
+└── utils
+    ├── environment.yml
+    ├── metadados_2013-2016.pdf
+    ├── metadados_2017-2020.pdf
+    └── requirements.txt
+```
 
 ## Contribuições
