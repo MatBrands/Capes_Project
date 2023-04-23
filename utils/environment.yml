@@ -6,7 +6,6 @@ dependencies:
   - pip
   - numpy
   - pandas
-  - text2num
+  - unidecode
   - nltk
-  - spacy
   - ipykernel
