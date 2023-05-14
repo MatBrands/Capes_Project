@@ -1,4 +1,4 @@
-*.csv
+raw/
 *.pkl
 
 # Byte-compiled / optimized / DLL files
