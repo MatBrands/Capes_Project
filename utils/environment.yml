@@ -8,6 +8,7 @@ dependencies:
   - pandas
   - unidecode
   - nltk
+  - python-levenshtein
   - pyarrow
   - fastparquet
   - ipykernel
